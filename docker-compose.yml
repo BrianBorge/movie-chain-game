@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  app:
+    image: brianborge/movie-chain-game:latest
+    ports: 
+      - "4567:4567"
